@@ -1,0 +1,107 @@
+html {
+    background-color: aquamarine;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 20px;
+    color: #242424;
+    border-top: 5px solid #222222;
+    background: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-style: oblique;  
+}
+
+p {
+    line-height: 2em;
+}
+
+#Bio1 {
+    border-bottom: 1px inset #242424;
+
+}
+
+#Blog1 {
+    border-top: 1px dotted #222222;
+}
+
+.Section-1 {
+    border-bottom: 1px dotted #222222;
+}
+
+a[href="about.html"] {
+    color: #FF7F50;
+}
+
+a[href="contact.html"] {
+    color: #FF7F50;
+}
+
+a[href="index.html"] {
+    color: #FF7F50;
+}
+
+.position-demo {
+    font-style: italic;
+    background: aquamarine;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+article {
+    background:lightcyan;
+    margin: 35px;
+    display: flex;
+}
+
+
+article:nth-of-type(1) {
+    flex: 2;
+
+}
+
+article:nth-of-type(2) {
+    flex: 2;
+}
+
+img {
+    background: black;
+    height: 180px;
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+}
+
+@media (max-width: 400px ) {
+    #A {
+         background: red;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
